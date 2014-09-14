@@ -1,0 +1,16 @@
+//
+//  main.m
+//  Today's Stocks
+//
+//  Created by Noah Martin on 9/13/14.
+//
+//
+
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+
+int main(int argc, char * argv[]) {
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    }
+}
