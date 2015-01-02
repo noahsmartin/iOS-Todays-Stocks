@@ -14,6 +14,24 @@
 		4F52B01C19C51B3D00080A2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F52B01B19C51B3D00080A2B /* Images.xcassets */; };
 		4F52B01F19C51B3D00080A2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F52B01D19C51B3D00080A2B /* LaunchScreen.xib */; };
 		4F52B02B19C51B3D00080A2B /* Today_s_StocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B02A19C51B3D00080A2B /* Today_s_StocksTests.m */; };
+		4F52B04219C51B8F00080A2B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52B04119C51B8F00080A2B /* NotificationCenter.framework */; };
+		4F52B04819C51B8F00080A2B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B04719C51B8F00080A2B /* TodayViewController.m */; };
+		4F52B04A19C51B8F00080A2B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F52B04919C51B8F00080A2B /* MainInterface.storyboard */; };
+		4F52B04D19C51B8F00080A2B /* Today's Stocks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F52B03F19C51B8F00080A2B /* Today's Stocks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F52B05619C51BB100080A2B /* StockRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B05519C51BB100080A2B /* StockRequest.m */; };
+		4F52B05919C51BB900080A2B /* SymbolSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B05819C51BB900080A2B /* SymbolSearch.m */; };
+		4F52B05C19C51BC600080A2B /* ChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B05B19C51BC600080A2B /* ChangeView.m */; };
+		4F52B05F19C51BD100080A2B /* DataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B05E19C51BD100080A2B /* DataPoint.m */; };
+		4F52B06219C51BD900080A2B /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B06119C51BD900080A2B /* GraphView.m */; };
+		4F52B06519C51C7500080A2B /* StockGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B06419C51C7500080A2B /* StockGraph.m */; };
+		4F677E9A19CF8B7900C17BF8 /* StockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F677E9919CF8B7900C17BF8 /* StockCell.m */; };
+		4F677E9D19D0DFF300C17BF8 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F677E9C19D0DFF300C17BF8 /* SearchViewController.m */; };
+		4FAFF07619D332A5001790F9 /* StockRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF07519D332A5001790F9 /* StockRequest.m */; };
+		4FAFF07B19D332E9001790F9 /* DataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF07819D332E9001790F9 /* DataPoint.m */; };
+		4FAFF07C19D332E9001790F9 /* StockGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFF07A19D332E9001790F9 /* StockGraph.m */; };
+		4FB2451B19DA1A27006A0D33 /* NewsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52B03719C51B6100080A2B /* NewsRequest.m */; };
+		4FB2451F19DA2D90006A0D33 /* NewsArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2451E19DA2D90006A0D33 /* NewsArticle.m */; };
+		4FB2452219DA2DAA006A0D33 /* NewsArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2452119DA2DAA006A0D33 /* NewsArticle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +42,35 @@
 			remoteGlobalIDString = 4F52B00A19C51B3D00080A2B;
 			remoteInfo = "Today's Stocks";
 		};
+		4F52B04B19C51B8F00080A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F52B00319C51B3D00080A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F52B03E19C51B8F00080A2B;
+			remoteInfo = "Today's Stocks Extension";
+		};
+		4F52B04E19C51B8F00080A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F52B00319C51B3D00080A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F52B03E19C51B8F00080A2B;
+			remoteInfo = "Today's Stocks Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F52B05319C51B8F00080A2B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F52B04D19C51B8F00080A2B /* Today's Stocks Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4F52B00B19C51B3D00080A2B /* Today's Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today's Stocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +86,43 @@
 		4F52B02419C51B3D00080A2B /* Today's StocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Today's StocksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F52B02919C51B3D00080A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F52B02A19C51B3D00080A2B /* Today_s_StocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Today_s_StocksTests.m; sourceTree = "<group>"; };
+		4F52B03619C51B6100080A2B /* NewsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsRequest.h; path = "../Today's Stocks/NewsRequest.h"; sourceTree = "<group>"; };
+		4F52B03719C51B6100080A2B /* NewsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsRequest.m; path = "../Today's Stocks/NewsRequest.m"; sourceTree = "<group>"; };
+		4F52B03819C51B6100080A2B /* StockFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StockFramework.h; path = "../Today's Stocks/StockFramework.h"; sourceTree = "<group>"; };
+		4F52B03F19C51B8F00080A2B /* Today's Stocks Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Today's Stocks Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F52B04119C51B8F00080A2B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4F52B04519C51B8F00080A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F52B04619C51B8F00080A2B /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		4F52B04719C51B8F00080A2B /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		4F52B04919C51B8F00080A2B /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		4F52B05419C51BB100080A2B /* StockRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockRequest.h; sourceTree = "<group>"; };
+		4F52B05519C51BB100080A2B /* StockRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockRequest.m; sourceTree = "<group>"; };
+		4F52B05719C51BB900080A2B /* SymbolSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearch.h; sourceTree = "<group>"; };
+		4F52B05819C51BB900080A2B /* SymbolSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearch.m; sourceTree = "<group>"; };
+		4F52B05A19C51BC600080A2B /* ChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeView.h; sourceTree = "<group>"; };
+		4F52B05B19C51BC600080A2B /* ChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeView.m; sourceTree = "<group>"; };
+		4F52B05D19C51BD100080A2B /* DataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPoint.h; sourceTree = "<group>"; };
+		4F52B05E19C51BD100080A2B /* DataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPoint.m; sourceTree = "<group>"; };
+		4F52B06019C51BD900080A2B /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		4F52B06119C51BD900080A2B /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		4F52B06319C51C7500080A2B /* StockGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockGraph.h; sourceTree = "<group>"; };
+		4F52B06419C51C7500080A2B /* StockGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockGraph.m; sourceTree = "<group>"; };
+		4F677E9819CF8B7900C17BF8 /* StockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockCell.h; sourceTree = "<group>"; };
+		4F677E9919CF8B7900C17BF8 /* StockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockCell.m; sourceTree = "<group>"; };
+		4F677E9B19D0DFF300C17BF8 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		4F677E9C19D0DFF300C17BF8 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		4FAFF07419D332A5001790F9 /* StockRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockRequest.h; sourceTree = "<group>"; };
+		4FAFF07519D332A5001790F9 /* StockRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockRequest.m; sourceTree = "<group>"; };
+		4FAFF07719D332E9001790F9 /* DataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPoint.h; sourceTree = "<group>"; };
+		4FAFF07819D332E9001790F9 /* DataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPoint.m; sourceTree = "<group>"; };
+		4FAFF07919D332E9001790F9 /* StockGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockGraph.h; sourceTree = "<group>"; };
+		4FAFF07A19D332E9001790F9 /* StockGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockGraph.m; sourceTree = "<group>"; };
+		4FAFF07D19D333D2001790F9 /* Today's Stocks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Today's Stocks.entitlements"; sourceTree = "<group>"; };
+		4FAFF07E19D333FE001790F9 /* Today's Stocks Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Today's Stocks Extension.entitlements"; sourceTree = "<group>"; };
+		4FB2451D19DA2D90006A0D33 /* NewsArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsArticle.h; sourceTree = "<group>"; };
+		4FB2451E19DA2D90006A0D33 /* NewsArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsArticle.m; sourceTree = "<group>"; };
+		4FB2452019DA2DAA006A0D33 /* NewsArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsArticle.h; sourceTree = "<group>"; };
+		4FB2452119DA2DAA006A0D33 /* NewsArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsArticle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +140,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F52B03C19C51B8F00080A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F52B04219C51B8F00080A2B /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +156,8 @@
 			children = (
 				4F52B00D19C51B3D00080A2B /* Today's Stocks */,
 				4F52B02719C51B3D00080A2B /* Today's StocksTests */,
+				4F52B04319C51B8F00080A2B /* Today's Stocks Extension */,
+				4F52B04019C51B8F00080A2B /* Frameworks */,
 				4F52B00C19C51B3D00080A2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +167,7 @@
 			children = (
 				4F52B00B19C51B3D00080A2B /* Today's Stocks.app */,
 				4F52B02419C51B3D00080A2B /* Today's StocksTests.xctest */,
+				4F52B03F19C51B8F00080A2B /* Today's Stocks Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +175,23 @@
 		4F52B00D19C51B3D00080A2B /* Today's Stocks */ = {
 			isa = PBXGroup;
 			children = (
+				4FAFF07D19D333D2001790F9 /* Today's Stocks.entitlements */,
+				4FB2452019DA2DAA006A0D33 /* NewsArticle.h */,
+				4FB2452119DA2DAA006A0D33 /* NewsArticle.m */,
 				4F52B01219C51B3D00080A2B /* AppDelegate.h */,
 				4F52B01319C51B3D00080A2B /* AppDelegate.m */,
 				4F52B01519C51B3D00080A2B /* ViewController.h */,
+				4F677E9B19D0DFF300C17BF8 /* SearchViewController.h */,
+				4F677E9C19D0DFF300C17BF8 /* SearchViewController.m */,
 				4F52B01619C51B3D00080A2B /* ViewController.m */,
+				4F52B05719C51BB900080A2B /* SymbolSearch.h */,
+				4F52B05819C51BB900080A2B /* SymbolSearch.m */,
+				4FAFF07419D332A5001790F9 /* StockRequest.h */,
+				4FAFF07519D332A5001790F9 /* StockRequest.m */,
+				4FAFF07719D332E9001790F9 /* DataPoint.h */,
+				4FAFF07819D332E9001790F9 /* DataPoint.m */,
+				4FAFF07919D332E9001790F9 /* StockGraph.h */,
+				4FAFF07A19D332E9001790F9 /* StockGraph.m */,
 				4F52B01819C51B3D00080A2B /* Main.storyboard */,
 				4F52B01B19C51B3D00080A2B /* Images.xcassets */,
 				4F52B01D19C51B3D00080A2B /* LaunchScreen.xib */,
@@ -119,6 +226,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4F52B04019C51B8F00080A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F52B04119C51B8F00080A2B /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F52B04319C51B8F00080A2B /* Today's Stocks Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFF07E19D333FE001790F9 /* Today's Stocks Extension.entitlements */,
+				4F52B06019C51BD900080A2B /* GraphView.h */,
+				4F52B06119C51BD900080A2B /* GraphView.m */,
+				4F52B05A19C51BC600080A2B /* ChangeView.h */,
+				4F52B05B19C51BC600080A2B /* ChangeView.m */,
+				4F52B06319C51C7500080A2B /* StockGraph.h */,
+				4F52B06419C51C7500080A2B /* StockGraph.m */,
+				4F52B04619C51B8F00080A2B /* TodayViewController.h */,
+				4F52B04719C51B8F00080A2B /* TodayViewController.m */,
+				4F52B05D19C51BD100080A2B /* DataPoint.h */,
+				4F52B05E19C51BD100080A2B /* DataPoint.m */,
+				4FB2451D19DA2D90006A0D33 /* NewsArticle.h */,
+				4FB2451E19DA2D90006A0D33 /* NewsArticle.m */,
+				4F52B03619C51B6100080A2B /* NewsRequest.h */,
+				4F52B03719C51B6100080A2B /* NewsRequest.m */,
+				4F52B03819C51B6100080A2B /* StockFramework.h */,
+				4F52B05419C51BB100080A2B /* StockRequest.h */,
+				4F52B05519C51BB100080A2B /* StockRequest.m */,
+				4F52B04919C51B8F00080A2B /* MainInterface.storyboard */,
+				4F52B04419C51B8F00080A2B /* Supporting Files */,
+				4F677E9819CF8B7900C17BF8 /* StockCell.h */,
+				4F677E9919CF8B7900C17BF8 /* StockCell.m */,
+			);
+			path = "Today's Stocks Extension";
+			sourceTree = "<group>";
+		};
+		4F52B04419C51B8F00080A2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F52B04519C51B8F00080A2B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +281,13 @@
 				4F52B00719C51B3D00080A2B /* Sources */,
 				4F52B00819C51B3D00080A2B /* Frameworks */,
 				4F52B00919C51B3D00080A2B /* Resources */,
+				4F52B05319C51B8F00080A2B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4F52B04C19C51B8F00080A2B /* PBXTargetDependency */,
+				4F52B04F19C51B8F00080A2B /* PBXTargetDependency */,
 			);
 			name = "Today's Stocks";
 			productName = "Today's Stocks";
@@ -157,6 +312,23 @@
 			productReference = 4F52B02419C51B3D00080A2B /* Today's StocksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4F52B03E19C51B8F00080A2B /* Today's Stocks Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F52B05019C51B8F00080A2B /* Build configuration list for PBXNativeTarget "Today's Stocks Extension" */;
+			buildPhases = (
+				4F52B03B19C51B8F00080A2B /* Sources */,
+				4F52B03C19C51B8F00080A2B /* Frameworks */,
+				4F52B03D19C51B8F00080A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Today's Stocks Extension";
+			productName = "Today's Stocks Extension";
+			productReference = 4F52B03F19C51B8F00080A2B /* Today's Stocks Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,10 +339,25 @@
 				TargetAttributes = {
 					4F52B00A19C51B3D00080A2B = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 28B76375E5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4F52B02319C51B3D00080A2B = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 4F52B00A19C51B3D00080A2B;
+					};
+					4F52B03E19C51B8F00080A2B = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 28B76375E5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -189,6 +376,7 @@
 			targets = (
 				4F52B00A19C51B3D00080A2B /* Today's Stocks */,
 				4F52B02319C51B3D00080A2B /* Today's StocksTests */,
+				4F52B03E19C51B8F00080A2B /* Today's Stocks Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +399,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F52B03D19C51B8F00080A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F52B04A19C51B8F00080A2B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -218,9 +414,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAFF07C19D332E9001790F9 /* StockGraph.m in Sources */,
 				4F52B01719C51B3D00080A2B /* ViewController.m in Sources */,
+				4F52B05919C51BB900080A2B /* SymbolSearch.m in Sources */,
+				4FB2452219DA2DAA006A0D33 /* NewsArticle.m in Sources */,
 				4F52B01419C51B3D00080A2B /* AppDelegate.m in Sources */,
 				4F52B01119C51B3D00080A2B /* main.m in Sources */,
+				4FAFF07619D332A5001790F9 /* StockRequest.m in Sources */,
+				4F677E9D19D0DFF300C17BF8 /* SearchViewController.m in Sources */,
+				4FAFF07B19D332E9001790F9 /* DataPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +434,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F52B03B19C51B8F00080A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F52B05619C51BB100080A2B /* StockRequest.m in Sources */,
+				4F52B06219C51BD900080A2B /* GraphView.m in Sources */,
+				4F52B04819C51B8F00080A2B /* TodayViewController.m in Sources */,
+				4FB2451F19DA2D90006A0D33 /* NewsArticle.m in Sources */,
+				4F52B06519C51C7500080A2B /* StockGraph.m in Sources */,
+				4F52B05F19C51BD100080A2B /* DataPoint.m in Sources */,
+				4F52B05C19C51BC600080A2B /* ChangeView.m in Sources */,
+				4FB2451B19DA1A27006A0D33 /* NewsRequest.m in Sources */,
+				4F677E9A19CF8B7900C17BF8 /* StockCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -239,6 +457,16 @@
 			isa = PBXTargetDependency;
 			target = 4F52B00A19C51B3D00080A2B /* Today's Stocks */;
 			targetProxy = 4F52B02519C51B3D00080A2B /* PBXContainerItemProxy */;
+		};
+		4F52B04C19C51B8F00080A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F52B03E19C51B8F00080A2B /* Today's Stocks Extension */;
+			targetProxy = 4F52B04B19C51B8F00080A2B /* PBXContainerItemProxy */;
+		};
+		4F52B04F19C51B8F00080A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F52B03E19C51B8F00080A2B /* Today's Stocks Extension */;
+			targetProxy = 4F52B04E19C51B8F00080A2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -342,9 +570,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Today's Stocks/Today's Stocks.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Today's Stocks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -352,9 +586,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Today's Stocks/Today's Stocks.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Today's Stocks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -392,6 +632,42 @@
 			};
 			name = Release;
 		};
+		4F52B05119C51B8F00080A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Today's Stocks Extension/Today's Stocks Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Today's Stocks Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F52B05219C51B8F00080A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Today's Stocks Extension/Today's Stocks Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Today's Stocks Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +687,7 @@
 				4F52B03019C51B3D00080A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F52B03119C51B3D00080A2B /* Build configuration list for PBXNativeTarget "Today's StocksTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +696,16 @@
 				4F52B03319C51B3D00080A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F52B05019C51B8F00080A2B /* Build configuration list for PBXNativeTarget "Today's Stocks Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F52B05119C51B8F00080A2B /* Debug */,
+				4F52B05219C51B8F00080A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
